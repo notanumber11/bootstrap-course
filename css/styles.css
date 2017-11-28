@@ -37,3 +37,11 @@ body{
 .navbar-inverse {
      background-color: #512DA8;
 }
+
+.card-reserve {
+    background-color: #F0AD4E;
+}
+
+.card-body-reserve {
+    padding: 10px;
+}
