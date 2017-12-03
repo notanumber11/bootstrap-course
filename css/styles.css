@@ -52,3 +52,27 @@ body{
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+
+.carousel {
+    background:#512DA8;
+}
+
+/*div[class^="col"], div[class*=" col"] {*/
+    /*border: 5px ridge;*/
+    /*border-color: yellow*/
+/*}*/
+
+/*div[class^="row"], div[class*=" row"] {*/
+    /*padding: 5px;*/
+    /*border: 5px ridge;*/
+    /*border-color: red;*/
+/*}*/
+
+.carousel-text {
+    color: white;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 300px;
+}

@@ -5,15 +5,15 @@
     min-height:400px;
 }
 
-div[class^="col"], div[class*=" col"] {
-	border: 5px ridge;
-	border-color: yellow
-}
 
 .navbar-inverse {
      background-color: #512DA8;
 }
 
+div[class^="col"], div[class*=" col"] {
+    border: 5px ridge;
+    border-color: yellow
+}
 
 div[class^="row"], div[class*=" row"] {
 	padding: 5px;
