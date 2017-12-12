@@ -23,3 +23,19 @@ $(document).ready(function(){
         }
     });
 });
+
+function showReserveModal(){
+    $("#reserveModal").modal('toggle')
+}
+
+$('#reserveModal').modal({
+    keyboard: true
+})
+
+function showLoginModal(){
+    $("#loginModal").modal('toggle')
+}
+
+$('#loginModal').modal({
+    keyboard: true
+})

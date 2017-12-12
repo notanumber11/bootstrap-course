@@ -27,8 +27,19 @@ address {
 body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
-  body .modal-open {
-    padding-right: 0 !important; }
+
+.modal .modal-header {
+  background: #0077D3; }
+
+.modal .modal-title {
+  color: #fffaf0; }
+
+.modal-open {
+  padding-right: 0 !important;
+  overflow: hidden; }
+
+.card-body {
+  padding: 1em; }
 
 .navbar-inverse {
   background-color: #512DA8; }

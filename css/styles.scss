@@ -3,6 +3,9 @@ $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 $background-reserve-header: #F0AD4E;
+$floralwhite: #fffaf0;
+$blue-header: #0077D3;
+
 
 
 // Height variables
@@ -42,9 +45,27 @@ address{
 body{
   padding:50px 0px 0px 0px;
   z-index:0;
-  .modal-open {
-    padding-right: 0 !important;
+}
+
+
+.modal {
+  .modal-header{
+    background: $blue-header;
   }
+  .modal-title{
+    color: $floralwhite;
+  }
+}
+
+.modal-open {
+  padding-right: 0 !important;
+  overflow: hidden;
+}
+
+
+
+.card-body {
+  padding:1em;
 }
 
 .navbar-inverse {
